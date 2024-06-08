@@ -1,4 +1,4 @@
-# Screenshots
+# Application Screenshots
 
 ![Abiral_CW - Microsoft Visual Studio 3_20_2024 10_23_52 AM](https://github.com/Awix002/Web-based-Database-Application/assets/100296672/01b53240-d407-4068-b25e-740b38d72873)
 
