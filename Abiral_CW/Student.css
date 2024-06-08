@@ -1,0 +1,121 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.student-container {
+    background-color: #EFF6FF;
+    margin-left: 200px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+
+.main-form-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.form-view {
+    background-color: #EFF6FF;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+    .form-view input[type="text"],
+    .form-view input[type="email"],
+    .form-view input[type="date"] {
+        width: 90%;
+        padding: 8px;
+        margin: 8px 0;
+        border: 1px solid rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+
+
+
+.addbutton {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #3882F6;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.clickbutton {
+    border: none;
+    background-color: #3882F6;
+    margin: 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+.grid-view {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    width: 100%;
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+}
+
+
+.grid-view table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.grid-view th, td {
+    padding: 10px;
+    text-align: center;
+    border: none;
+}
+
+.grid-view th {
+    border-bottom: 2px solid #000;
+}
+
+.grid-view td {
+    border-bottom: 2px solid #ddd;
+    padding-left: 10px;
+}
+
+.grid-view tbody tr:hover {
+    background-color: #EFF6FF;
+}
